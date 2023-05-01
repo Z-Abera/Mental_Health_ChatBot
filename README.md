@@ -3,6 +3,7 @@ Aim:
 - To scrape and process the AnnoMI dataset https://github.com/uccollab/AnnoMI.
 - AnnoMI is a dataset of approximately 25k client/therapist interactions. More information can be found here: https://paperswithcode.com/dataset/annomi 
 - NLP, LLaMA and derivative models will be used and evaluated. 
+- info about model: https://www.hackster.io/news/alpaca-the-large-language-model-that-won-t-fleece-you-cd133fec7412 
 
 #How to Use
 
