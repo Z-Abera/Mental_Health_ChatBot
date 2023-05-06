@@ -7,8 +7,10 @@ from datasets import Dataset, DatasetDict # this dependency is required !pip ins
 
 # We also would like this HF dataset to have a specific output
 # the output desired is 3 columns for instruction, text and target.
+# This function will take in a path to a json file and create a directory
+# with the huggingface supported files
 def preprocess_data(dataset_path: str):
-    raw_data = json.load(open("counselling_data.json"))
+    raw_data = json.load(open(dataset_path))
     instructions = []
     inputs = []
     outputs = []
